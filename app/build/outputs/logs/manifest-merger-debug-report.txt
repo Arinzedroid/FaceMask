@@ -1,0 +1,191 @@
+-- Merging decision tree log ---
+manifest
+ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:2:1-35:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4cff7d4cf54d3e577a86d608f9ea3bce\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\560444f02d7c4822b94bf1dd4e452f20\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2fb34dcf86c222a45bd0fdd4d9896a84\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ce0a52c0a7c385eafb841c833a32b302\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\93dfbe724542294eb6f840f3b1a6841f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b9059a2e8ce82ccfd0396b8b1408df47\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\56381b47cf2d516d330e4379964c927b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7b03a79a57dd10fa320510afab3bcd0c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cea65c4b575f5cee83e274ea50c6099e\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\769af51db5e1ca9e7e6d863724e70bca\AndroidManifest.xml:17:1-30:12
+INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml
+		INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:2:1-35:12
+		INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:2:1-35:12
+		INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.CAMERA
+ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:7:22-62
+uses-permission#android.permission.CAPTURE_AUDIO_OUTPUT
+ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:9:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:12:22-73
+uses-feature#android.hardware.camera
+ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:14:5-85
+	android:required
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:14:58-82
+	android:name
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:14:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:15:5-95
+	android:required
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:15:69-93
+	android:name
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:15:19-67
+application
+ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:18:5-33:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4cff7d4cf54d3e577a86d608f9ea3bce\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4cff7d4cf54d3e577a86d608f9ea3bce\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\560444f02d7c4822b94bf1dd4e452f20\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\560444f02d7c4822b94bf1dd4e452f20\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2fb34dcf86c222a45bd0fdd4d9896a84\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2fb34dcf86c222a45bd0fdd4d9896a84\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ce0a52c0a7c385eafb841c833a32b302\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ce0a52c0a7c385eafb841c833a32b302\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\93dfbe724542294eb6f840f3b1a6841f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\93dfbe724542294eb6f840f3b1a6841f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b9059a2e8ce82ccfd0396b8b1408df47\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b9059a2e8ce82ccfd0396b8b1408df47\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\56381b47cf2d516d330e4379964c927b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\56381b47cf2d516d330e4379964c927b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7b03a79a57dd10fa320510afab3bcd0c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7b03a79a57dd10fa320510afab3bcd0c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cea65c4b575f5cee83e274ea50c6099e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cea65c4b575f5cee83e274ea50c6099e\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\769af51db5e1ca9e7e6d863724e70bca\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\769af51db5e1ca9e7e6d863724e70bca\AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:21:9-41
+	android:icon
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:20:9-46
+	android:allowBackup
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:22:9-40
+activity#com.vidyo.vidyoconnector.MainActivity
+ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:23:9-32:20
+	android:label
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:27:13-45
+	android:launchMode
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:25:13-43
+	android:configChanges
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:26:13-59
+	android:name
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:24:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:28:13-31:29
+action#android.intent.action.MAIN
+ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml:30:27-74
+uses-sdk
+INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml
+INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4cff7d4cf54d3e577a86d608f9ea3bce\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4cff7d4cf54d3e577a86d608f9ea3bce\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\560444f02d7c4822b94bf1dd4e452f20\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\560444f02d7c4822b94bf1dd4e452f20\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2fb34dcf86c222a45bd0fdd4d9896a84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2fb34dcf86c222a45bd0fdd4d9896a84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ce0a52c0a7c385eafb841c833a32b302\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ce0a52c0a7c385eafb841c833a32b302\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\93dfbe724542294eb6f840f3b1a6841f\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\93dfbe724542294eb6f840f3b1a6841f\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b9059a2e8ce82ccfd0396b8b1408df47\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b9059a2e8ce82ccfd0396b8b1408df47\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\56381b47cf2d516d330e4379964c927b\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\56381b47cf2d516d330e4379964c927b\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7b03a79a57dd10fa320510afab3bcd0c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7b03a79a57dd10fa320510afab3bcd0c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cea65c4b575f5cee83e274ea50c6099e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cea65c4b575f5cee83e274ea50c6099e\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\769af51db5e1ca9e7e6d863724e70bca\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\769af51db5e1ca9e7e6d863724e70bca\AndroidManifest.xml:20:5-22:41
+INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml
+INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4cff7d4cf54d3e577a86d608f9ea3bce\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml
+		INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml
+		ADDED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml
+		INJECTED from H:\githubNew\Vidyo.io Sample\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4cff7d4cf54d3e577a86d608f9ea3bce\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\560444f02d7c4822b94bf1dd4e452f20\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\560444f02d7c4822b94bf1dd4e452f20\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2fb34dcf86c222a45bd0fdd4d9896a84\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2fb34dcf86c222a45bd0fdd4d9896a84\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ce0a52c0a7c385eafb841c833a32b302\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ce0a52c0a7c385eafb841c833a32b302\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\93dfbe724542294eb6f840f3b1a6841f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\93dfbe724542294eb6f840f3b1a6841f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b9059a2e8ce82ccfd0396b8b1408df47\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b9059a2e8ce82ccfd0396b8b1408df47\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\56381b47cf2d516d330e4379964c927b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\56381b47cf2d516d330e4379964c927b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7b03a79a57dd10fa320510afab3bcd0c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7b03a79a57dd10fa320510afab3bcd0c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cea65c4b575f5cee83e274ea50c6099e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\cea65c4b575f5cee83e274ea50c6099e\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4cff7d4cf54d3e577a86d608f9ea3bce\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4cff7d4cf54d3e577a86d608f9ea3bce\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\769af51db5e1ca9e7e6d863724e70bca\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\769af51db5e1ca9e7e6d863724e70bca\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\769af51db5e1ca9e7e6d863724e70bca\AndroidManifest.xml:26:13-58

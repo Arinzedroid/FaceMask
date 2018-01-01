@@ -1,0 +1,4 @@
+#Mon Jan 01 02:32:48 WAT 2018
+base.0=H\:\\githubNew\\Vidyo.io Sample\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\38
+renamed.0=classes.dex
+file.0=H\:\\githubNew\\Vidyo.io Sample\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\38\\classes.dex
