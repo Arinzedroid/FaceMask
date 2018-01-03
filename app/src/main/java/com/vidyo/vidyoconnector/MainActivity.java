@@ -1,10 +1,15 @@
 package com.vidyo.vidyoconnector;
 
+import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.content.res.Configuration;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -16,6 +21,7 @@ import android.widget.TextView;
 import android.app.Activity;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 import android.widget.ToggleButton;
 
 import com.vidyo.VidyoClient.Connector.ConnectorPkg;
@@ -23,6 +29,8 @@ import com.vidyo.VidyoClient.Connector.Connector;
 import com.vidyo.VidyoClient.Endpoint.LogRecord;
 import com.vidyo.VidyoClient.NetworkInterface;
 
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class MainActivity extends Activity implements
@@ -64,6 +72,7 @@ public class MainActivity extends Activity implements
     private MainActivity mSelf;
     SharedPreferences prefs;
     String Display_Name,ResourceID;
+    int m_permissionCode = 100;
 
 
     /*
@@ -74,10 +83,18 @@ public class MainActivity extends Activity implements
     protected void onCreate(Bundle savedInstanceState) {
         mLogger.Log("onCreate");
         super.onCreate(savedInstanceState);
+        if (Build.VERSION.SDK_INT < 23) {
+            init();
+        }
+        else {
+            checkPermissions(m_permissionCode);
+        }
 
+    }
+
+    public void init(){
         setContentView(R.layout.activity_main);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-
         prefs = this.getSharedPreferences("com.facemask.app", Context.MODE_PRIVATE);
 
         // Initialize the member variables
@@ -103,6 +120,61 @@ public class MainActivity extends Activity implements
         ConnectorPkg.setApplicationUIContext(this);
         mVidyoClientInitialized = ConnectorPkg.initialize();
     }
+
+    public void checkPermissions(int Code){
+        // require permission to access camera, read and write external storage
+        String[] permissions_required = new String[] {
+                Manifest.permission.CAMERA,
+                Manifest.permission.ACCESS_NETWORK_STATE,
+                Manifest.permission.CAPTURE_AUDIO_OUTPUT,
+                Manifest.permission.RECORD_AUDIO,
+                Manifest.permission.MODIFY_AUDIO_SETTINGS,
+                Manifest.permission.ACCESS_WIFI_STATE,
+                Manifest.permission.INTERNET,
+                Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                Manifest.permission.READ_EXTERNAL_STORAGE };
+
+        // check if permissions have been granted
+        List<String> permissions_not_granted_list = new ArrayList<>();
+        for (String permission : permissions_required) {
+            if (ActivityCompat.checkSelfPermission(getApplicationContext(), permission) != PackageManager.PERMISSION_GRANTED) {
+                permissions_not_granted_list.add(permission);
+            }
+        }
+        // permissions not granted
+        if (permissions_not_granted_list.size() > 0) {
+            String[] permissions = new String[permissions_not_granted_list.size()];
+            permissions_not_granted_list.toArray(permissions);
+            ActivityCompat.requestPermissions(this, permissions, Code);
+        }
+        else { // if all permissions have been granted
+            init();
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String permissions[],@NonNull int[] grantResults) {
+        // this is the answer to our permission request (our permissioncode)
+        if (requestCode == m_permissionCode) {
+            // check if all have been granted
+            boolean ok = true;
+            for (int grantResult : grantResults) {
+                ok = ok && (grantResult == PackageManager.PERMISSION_GRANTED);
+            }
+            if (ok) {
+                // if all have been granted, continue
+                init();
+            }
+            else {
+                // exit if not all required permissions have been granted
+                Toast.makeText(this, "Error: required permissions not granted!", Toast.LENGTH_SHORT).show();
+                finish();
+            }
+        }
+    }
+
+
+
 
     @Override
     protected void onNewIntent(Intent intent) {
